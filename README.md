@@ -1,14 +1,14 @@
 l5-stomp-queue
 ==============
 
-STOMP Queue and Broadcaster Driver for Laravel 5.
+STOMP Queue and Broadcaster Driver for Laravel 5. This is a fork if the original one from [here](https://github.com/mayconbordin/l5-stomp-queue). The only change is the support for latest Laravel versions.
 
 ## Installation
 
 In order to install l5-stomp-queue, just add
 
 ```json
-"mayconbordin/l5-stomp-queue": "dev-master"
+"midium/l5-stomp-queue": "dev-master"
 ```
 	
 to your composer.json. Then run `composer install` or `composer update`.
