@@ -178,5 +178,15 @@ class StompQueue extends Queue implements QueueContract
         } else {
             return [];
         }
+
+    }
+    /**
+     * @param null $queue
+     *
+     * @return int|null
+     */
+    public function size($queue = null)
+    {
+        throw new StompException('There is no queue size in STOMP');
     }
 }
